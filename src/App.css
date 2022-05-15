@@ -3,8 +3,10 @@
 .box{
   border:1px solid black;
   width: 500px;
+  min-height: 85vh;
   text-align: center;
-  margin:4% 0 1% 0;
+  margin:2% 0 1% 0;
+  border:1px solid #f5f4f2;
 }
 
 .item-img{
@@ -39,4 +41,8 @@ button{
   padding:10px;
   background-color: white;
   border:1px solid #53b7e2;
+}
+
+button:hover{
+  background-color: #53b7e2;
 }
