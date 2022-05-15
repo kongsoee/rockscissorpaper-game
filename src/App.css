@@ -3,13 +3,40 @@
 .box{
   border:1px solid black;
   width: 500px;
+  text-align: center;
+  margin:4% 0 1% 0;
 }
 
 .item-img{
   width: 400px;
+ display: block;
+ margin:auto;
 }
 
 .main{
   display: flex;
   justify-content: center;
+}
+
+.win{
+  background-color:  #a5d4ea;
+  border:1px solid #a5d4ea;
+}
+
+.lose {
+  background-color:  #f4674d;
+  border:1px solid #f4674d;
+}
+
+.tie{
+  border:1px solid #f5f4f2;
+
+}
+
+button{
+  margin:0 10px;
+  width:20%;
+  padding:10px;
+  background-color: white;
+  border:1px solid #53b7e2;
 }
